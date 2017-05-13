@@ -1,0 +1,504 @@
+body {
+    direction: rtl;
+    background-image: url("../images/desk.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*עיצוב עמוד הבית*/
+
+#box {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    margin-right: 140px;
+    margin-top: 60px;
+    background-image: url("../images/lines.png");
+}
+
+
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50pt;
+    color: white;
+    margin-right: 140px;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24pt;
+    color: white;
+    display: inline;
+}
+
+
+
+p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+/*עיצוב תפריט ניווט*/
+
+ul {
+    list-style: none;
+}
+
+nav {
+    margin-right: 140px;
+    margin-top: 20px;
+    font-family: 'Assistant', sans-serif;
+}
+
+    nav ul li {
+        display: inline-block;
+        float: right;
+        font-family: 'Assistant', sans-serif;
+    }
+
+        nav ul li a {
+            display: block;
+            background-color: #151515;
+            color: white;
+            width: 100px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Assistant', sans-serif;
+        }
+
+            nav ul li a.selected {
+                background-color: #958a7e;
+            }
+
+.longli {
+    display: block;
+    background-color: #151515;
+    color: white;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #c1b3a4;
+}
+
+nav ul li a:active {
+    background-color: #958a7e;
+}
+
+
+nav ul li .insidenav {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover .insidenav {
+    display: block;
+    width: 150px;
+}
+
+.sublink {
+    width: 150px;
+    height: 30px;
+}
+
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36pt;
+    padding: 10px;
+}
+
+#me {
+    margin-right: 220px;
+}
+
+#intro {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    width: 650px;
+}
+
+#music {
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+    #music p {
+        font-family: 'Assistant', sans-serif;
+        font-size: 8pt;
+        margin-right: 70px;
+    }
+
+/*עיצוב עמוד תקשורת חזותית*/
+
+.line {
+    margin-bottom: 20px;
+}
+
+#PortraitLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 100px;
+}
+
+    #PortraitLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#ProjectLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #ProjectLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד פורטרט עצמי*/
+
+h4 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 24pt;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#portrait {
+    margin-right: 20px;
+}
+
+#PortraitPic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #PortraitPic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+
+.info {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.back {
+    font-family: 'Assistant', sans-serif;
+    font-size: 12pt;
+    display: block;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: #673c3c;
+}
+
+    .back:hover {
+        color: #c1b3a4;
+    }
+
+/*עיצוב עמוד פרויקט סיום*/
+
+#thelovers {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #thelovers:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#ProjectPic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #ProjectPic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#existing {
+    margin-right: 90px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    display: inline-block;
+    font-style: italic;
+}
+
+#new {
+    margin-right: 220px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    display: inline-block;
+    font-style: italic;
+}
+
+#video {
+    margin-right: 10px;
+}
+
+/*עיצוב עמוד גרפיקה ממוחשבת*/
+
+#PosterLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 100px;
+}
+
+    #PosterLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#MovieLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #MovieLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד פוסטר לשינוי עמדות*/
+
+#PosterPic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #PosterPic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד כרזה לסרט*/
+
+#OriginalmoviePic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #OriginalmoviePic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#MoviePic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #MoviePic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד פיתוח אתרי אינטרנט*/
+
+#ProfileLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #ProfileLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+#LandingLink {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #LandingLink:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד דף נחיתה*/
+
+#LandingPic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #LandingPic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמוד עמוד פרופיל*/
+
+#ProfilePic {
+    opacity: 1;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    margin-right: 10px;
+}
+
+    #ProfilePic:hover {
+        opacity: 0.6;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+        -webkit-transition: opacity .2s ease-out;
+        -o-transition: opacity .2s ease-out;
+    }
+
+/*עיצוב עמודות אודות*/
+
+.line a {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    color: #673c3c;
+}
+
+    .line a:hover {
+        color: #c1b3a4;
+    }
+
+.line strong {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#rights {
+    font-family: 'Assistant', sans-serif;
+    font-size: 12pt;
+}
+
+/*עיצוב עמוד צור קשר*/
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+}
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+    margin-right: 10px;
+}
